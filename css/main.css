@@ -1,0 +1,127 @@
+*
+{outline: 1px red solid}
+ 
+ header{
+    background-image:url(../image/large.jpg);
+    background-size: cover;
+    color: white;
+}
+.frase
+{
+    margin: 120px 0 ;
+    text-align: center;
+}
+.cara
+{
+    background: rgba(103,156,247,0.3);
+}
+.banner
+{
+    background: rgba(87,149,255,0.79);
+     background-color: rgba(84,126,183,0.8);
+    margin-top: 110px;
+    padding: 26px;
+    color: white;
+}
+
+.logo
+{
+    padding: 15px;
+}
+.list-inline{
+    margin-left: 140px;
+    padding: 10px;
+}
+header nav ul li a{
+    font-size: 18px;
+    padding-left: 20px;
+    color: white;
+}
+.frase h2{
+    font-size: 40px;
+    margin-top: 140px;
+}
+
+.user
+{
+	height: 20px;
+}
+.text
+{
+	text-align: center;
+}
+
+.text-center
+{
+	color: skyblue;
+}
+.pasos
+{
+	color: skyblue;
+}
+.separador
+{
+	text-align: center;
+}
+.container-footer
+{
+	background-color: #5D6D7E;
+}
+.center-block
+{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.block
+{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 40px;
+}
+/*------------------------------------------------------------------------------------SERVICES*/
+.servicios{
+    margin-top: 80px;
+}
+.paso1 .paso2 .paso3
+{
+    position: relative;
+
+}
+.paso3
+{
+margin-bottom: 50px;
+}
+.icon-blue
+{
+    border-radius: 40px;
+    background: #299ff4;
+    padding:10px;
+   font-size: 10px;
+   color: #fff;
+   position: absolute;
+
+}
+
+.icon-container{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    line-height: 150px;
+    font-size: 60px;
+    text-align: center;
+    box-shadow: -2px 2px 10px rgba(0,0,0,0.2);
+    border-radius: 200px;
+    color: skyblue;
+}
+@media (max-width: 960px)and (min-width: 320px)
+{
+    .banner
+    {
+        text-align: center;
+    }
+}
+
+    
+}
